@@ -19,3 +19,12 @@ type alias Model =
 model : Model
 model =
     0
+
+
+
+-- UPDATE
+
+
+type Msg
+    = Increment
+    | Decrement
